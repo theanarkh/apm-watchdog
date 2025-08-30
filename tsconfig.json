@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "module": "CommonJS",
+    "target": "es6",
+    "lib": [
+      "es6",
+    ],
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "declaration": true,
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "test/**/*"
+  ]
+}
